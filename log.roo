@@ -1,0 +1,12 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-25 20:48:12
+hint
+project --topLevelPackage com.iansails
+web mvc setup
+hint
+jpa setup --provider HIBERNATE --database H2_IN_MEMORY 
+hint
+entity jpa --class com.iansails.img.Image 
+field string imageUrl
+json add
+web mvc json all
+service all --interfacePackage com.iansails.service 
